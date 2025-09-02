@@ -1,5 +1,7 @@
 ## 🔐 Injected Header
-
+```
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+```
 ## ✨ Why It Matters
 
 - **Security**: Prevents protocol downgrade and SSL stripping attacks  
