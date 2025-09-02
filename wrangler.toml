@@ -1,5 +1,7 @@
 name = "hsts-worker"
-type = "javascript"
-description = "Injects HSTS headers to seal browser-level trust—where encryption meets intention."
+main = "src/index.js"
 compatibility_date = "2025-09-02"
 account_id = "5db2b889b2ec2f82acfb71b8f5939502"
+
+[triggers]
+routes = ["https://ameenaccounting.co.za/*"]
